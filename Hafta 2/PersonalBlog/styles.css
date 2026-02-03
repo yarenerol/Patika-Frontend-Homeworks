@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --primary-color: rgb(230, 97,2);
+}
+
+body{
+font-family: "Figtree", sans-serif;
+color: #282828;
+background-color: rgb(228, 226, 226);
+
+} 
+
+p {
+    color: #484848;
+}
+#page-header {
+    height: 120px;
+    text-align: center;
+    background-color:#333
+}
+
+#page-title {
+    justify-self: center;
+    padding-top: 1rem;
+    color: aliceblue;
+
+}
+
+nav {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    font-weight: lighter;
+    font-size: large;
+    justify-items: center;
+    color: aliceblue;
+}
+
+#latest-post {
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#latest-box {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px lightgray;
+    
+}
+#latest-container {
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.article {
+    margin: 30px;
+    margin-top: 0px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer {
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+#footer-text {
+    color: aliceblue;
+    font-weight: 100;
+}
+
+.sum-box {
+    margin: 15px;
+    margin-top: 5px;
+    justify-self: center;
+}
+
+.pic-1 {
+    justify-content: center;
+    margin: 10px;
+}
+
+.buttons {
+    background-color: rgb(179, 175, 175);
+    padding: 8px 16px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.article {
+    margin-top: 50px;
+}
+
+.blog-title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.blog-text {
+    margin-right: 200px;
+    margin-left: 200px;
+}
+

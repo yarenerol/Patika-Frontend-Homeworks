@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Formu</title>
+</head>
+<body>
+
+    <h1 id="title">Kayıt formu</h1>
+    
+    <p id="description">XXX adlı siteye kaydolmak için lütfen aşağıdaki formu doldurun.</p>
+    
+    <form action="" id="survey-form">
+
+        <label for="name" id="name-label">Adınız ve soyadınız: </label>
+        <input type="text" id="name" placeholder="John Doe"><br>
+
+        <br>
+
+        <label for="email" id="email-label">E-posta adresiniz: </label>
+        <input type="email" id="email" placeholder="johnDoe@example.com"><br>
+
+        <br>
+        
+        <label for="age" id="number-label">Yaşınız: </label>
+        <input type="number" id="age" placeholder="32"><br>
+
+        <br>
+        
+        <label for="auto">Tercih ettiğiniz otomobili seçiniz:</label>
+        <select id="auto">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select><br>
+
+        <br>
+        
+        <label for="auto-type">Kullanabildiğiniz araç tipini seçin: </label>
+        <input type="checkbox" name= "auto-type" id="manual"><label for="manual">Manuel</label>
+        <input type="checkbox" name= "auto-type" id="automatic"><label for="automatic">Otomatik</label><br>
+
+        <br>
+        
+        <label for="rental-type">Kullanabildiğiniz araç tipini seçin: </label>
+        <input type="radio" name="rental-type" id="monthly-rental"><label for="rental-type">Aylık kiralama</label>
+        <input type="radio" name="rental-type" id="annual-rental"><label for="rental-type">Yıllık kiralama</label>
+        <input type="radio" name="rental-type" id="daily-rental"><label for="rental-type">Günlük kiralama</label><br>
+
+        <br>
+        
+        <label for="comments">Belirtmek istediğiniz bir husus varsa buraya yazabilirsiniz:</label>
+        <textarea name="comments" id="comments"></textarea><br>
+
+        <br>
+        
+        <input type="submit" name="submit" id="submit">
+
+    </form>
+    
+</body>
+</html>
