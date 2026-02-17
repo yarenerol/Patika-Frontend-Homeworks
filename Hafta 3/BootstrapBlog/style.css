@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: #F0F8FF;
+}
+
+.hero {
+    background-image: url(img/virginiaWoolf.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.main-menu-container {
+    background-color: #8FA99B;
+    width: 420px;
+    height: 50px;
+    left: 900px;
+    top: 300px;
+}
+
+.text-box {
+    background-color:azure;
+    margin: 20px;
+    height: 50px;
+}
+
+.virginia{
+    margin: 15px 20px 15px 20px;
+    text-shadow: 2px 2px 5px black;
+}
+
+#biography-container{
+    background-color: #8FA99B;
+    height: 1000px;
+}
+
+.works{
+    background-color: #7D8C99;
+    height: 800px;
+}
+
+footer{
+    background-color: #6E6E6E;
+}
