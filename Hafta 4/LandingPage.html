@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="LandingPage.css">
+</head>
+<body class="bg-zinc-200">
+
+    <header class="py-5"> <div class="container mx-auto max-w-6xl"> 
+            <nav class="bg-gray-50 shadow-sm rounded-xl px-8 py-4 flex justify-between items-center">
+                <div class="text-black-900 font-bold text-l">LOGO</div>
+                
+                <div class="flex items-center gap-8">
+                    <a href="#" class="text-zinc-600 font-medium hover:text-purple-600">Link</a>
+                    <a href="#" class="text-zinc-600 font-medium hover:text-purple-600">Link</a>
+                    <a href="#" class="text-zinc-600 font-medium hover:text-purple-600">Link</a>
+                    <button class="bg-purple-600 text-white px-6 py-2 rounded-lg font-semibold">Sign Up</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container mx-auto max-w-6xl">
+        <div class="grid grid-cols-12 gap-6 max-w-6xl">
+            <div class="bg-gray-50 p-6 col-span-5 rounded-lg text-center">
+                <p class="text-violet-700 font-semibold mt-6">Mamba design system</p>
+                <h1 class="text-5xl font-bold mb-9">Built it with Mamba</h1>
+                <p class="font-semibold">Modular and versatile. The ultimate design toolkit for savy technology startups.</p>
+                <input type="text" placeholder="Your name" class="w-full my-4"><br>
+                <input type="email" placeholder="Email address" class="w-full mb-4">
+                <button class="bg-purple-600 text-white px-2 py-2 rounded-sm font-semibold w-full">Join the waitlist</button>
+
+            </div>
+            <div class="col-span-7">
+                <img src="https://picsum.photos/700/500" alt="" class="w-full h-full object-cover rounded-lg">
+            </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto max-w-6xl">
+        <div class="grid grid-cols-1 max-w-6xl text-center py-9">
+            <p class="text-violet-700 mb-2">How it works</p>
+            <h1 class="text-4xl font-bold mb-9">Building it with Mamba is simple</h1>
+        </div>
+    </section>
+
+    <section class="container mx-auto max-w-6xl pb-9">
+        <div class="grid grid-cols-12 gap-6 max-w-6xl">
+            <div class="col-span-4 bg-gray-50">
+                <div class="w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold m-4">1</div>
+                <p class="text-md p-4 font-semibold"><span class="font-bold">Nulla.</span>Nostrum, lorem ipsum dolor sit, amet consectetur.</p>
+            </div>
+            <div class="col-span-4 bg-gray-50">
+                <div class="w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold m-4">2</div>
+                <p class="text-md p-4 font-semibold"><span class="font-bold">Nulla.</span>Nostrum, lorem ipsum dolor sit, amet consectetur.</p>
+            </div>
+            <div class="col-span-4 bg-gray-50">
+                <div class="w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold m-4">3</div>
+                <p class="text-md p-4 font-semibold"><span class="font-bold">Nulla.</span>Nostrum, lorem ipsum dolor sit, amet consectetur.</p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
