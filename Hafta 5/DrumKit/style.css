@@ -1,0 +1,42 @@
+body{
+    background-color: #2D3D50;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 3rem;
+    color: white;
+    
+}
+
+.image {
+    height: auto;
+    width: 700px;
+    margin: 20px;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.btns {
+    background-color: #3498DB;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 15px;
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    border-radius: 15px;
+    
+}
