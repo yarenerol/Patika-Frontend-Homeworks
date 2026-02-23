@@ -1,0 +1,60 @@
+body {
+            background-color: #f3f2ef; /* LinkedIn'in ikonik arka plan rengi */
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+        }
+
+        /* Navbar Ayarları */
+        .navbar {
+            background-color: white;
+            border-bottom: 1px solid #e0dfdc;
+            padding: 0.5rem 0;
+        }
+        .nav-item .nav-link {
+            color: #666;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+        .nav-item .nav-link:hover, .nav-item .nav-link.active {
+            color: #191919;
+        }
+        .nav-item i {
+            font-size: 1.2rem;
+            display: block;
+        }
+
+        /* Kart Ayarları */
+        .card {
+            border: 1px solid #e0dfdc;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        /* Profil Kartı Özel Ayarları */
+        .profile-bg {
+            height: 60px;
+            background-color: #a0b4b7;
+            border-top-left-radius: 0.5rem;
+            border-top-right-radius: 0.5rem;
+        }
+        .profile-img {
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            border: 2px solid white;
+            margin-top: -36px;
+            background-color: #fff;
+        }
+
+        /* Butonlar */
+        .btn-rounded {
+            border-radius: 24px;
+            font-weight: 600;
+        }
+        .action-btn {
+            color: #5e5e5e;
+            font-weight: 600;
+        }
+        .action-btn:hover {
+            background-color: #f3f2ef;
+            color: #191919;
+        }

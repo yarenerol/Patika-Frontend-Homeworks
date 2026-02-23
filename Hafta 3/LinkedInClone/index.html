@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fa-brands fa-linkedin fa-2x text-primary"></i></a>
+            
+            <form class="d-none d-md-flex ms-2">
+                <input class="form-control me-2 bg-light" type="search" placeholder="Arama yap" aria-label="Search" style="width: 250px;">
+            </form>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item me-3">
+                        <a class="nav-link active" href="#"><i class="fa-solid fa-house"></i>Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-user-group"></i>Ağım</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-briefcase"></i>İş İlanları</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-message"></i>Mesajlar</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-bell"></i>Bildirimler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-user-circle"></i>Ben</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            
+            <div class="col-lg-3 d-none d-lg-block">
+                <div class="card text-center">
+                    <div class="profile-bg"></div>
+                    <img src="https://picsum.photos/200/300" alt="Profil" class="profile-img mx-auto">
+                    <div class="card-body p-3">
+                        <h5 class="card-title mb-0"><a href="#" class="text-decoration-none text-dark">Yaren Erol Yılmaz</a></h5>
+                        <p class="card-text text-muted small">Fullstack Developer</p>
+                        <hr>
+                        <div class="text-start small">
+                            <div class="d-flex justify-content-between text-muted mb-2">
+                                <span>Profil görüntülemesi</span>
+                                <span class="text-primary fw-bold">68</span>
+                            </div>
+                            <div class="d-flex justify-content-between text-muted">
+                                <span>Yayındaki gösterimler</span>
+                                <span class="text-primary fw-bold">40</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body small p-3">
+                        <h6 class="text-muted" style="font-size: 0.8rem;">En Yeniler</h6>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><i class="fa-solid fa-bookmark me-2"></i>Kaydedilenler</li>
+                            <li class="mb-2"><i class="fa-solid fa-users me-2"></i>Gruplar</li>
+                            <li class="mb-2"><i class="fa-regular fa-newspaper me-2"></i>Haber Bültenleri</li>
+                            <li class="mb-2"><i class="fa-regular fa-calendar me-2"></i>Etkinlikler</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+                
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex mb-3">
+                            <img src="https://picsum.photos/200/300" class="rounded-circle me-2" width="48" height="48">
+                            <input type="text" class="form-control rounded-pill" placeholder="Gönderi başlat">
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <button class="btn btn-light btn-sm action-btn"><i class="fa-solid fa-image text-primary me-2"></i>Fotoğraf</button>
+                            <button class="btn btn-light btn-sm action-btn"><i class="fa-brands fa-youtube text-success me-2"></i>Video</button>
+                            <button class="btn btn-light btn-sm action-btn"><i class="fa-solid fa-calendar-days text-warning me-2"></i>Etkinlik</button>
+                            <button class="btn btn-light btn-sm action-btn"><i class="fa-solid fa-newspaper text-danger me-2"></i>Yazı yaz</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body pb-1">
+                        <div class="d-flex mb-3">
+                            <img src="https://picsum.photos/200/300/" class="rounded-circle me-2" width="48" height="48">
+                            <div>
+                                <h6 class="mb-0 fw-bold">Jane Doe</h6>
+                                <p class="text-muted small mb-0">1.5M takipçi</p>
+                                <p class="text-muted small mb-0">2s • <i class="fa-solid fa-earth-americas"></i></p>
+                            </div>
+                            <div class="ms-auto">
+                                <i class="fa-solid fa-ellipsis text-muted"></i>
+                            </div>
+                        </div>
+                        
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt mollitia corporis reprehenderit numquam saepe dolore harum, voluptatem eveniet dolores, assumenda excepturi omnis facere ab, accusantium maiores! Laudantium doloremque adipisci error.</p>
+                        <img src="https://picsum.photos/200/100/" class="img-fluid rounded mb-2 w-100">
+                        
+                        <div class="d-flex justify-content-between text-muted small border-bottom pb-2">
+                            <span><i class="fa-solid fa-thumbs-up text-primary"></i> 428</span>
+                            <span>55 Yorum • 28 Paylaşım</span>
+                        </div>
+
+                        <div class="d-flex justify-content-between mt-2 pt-1">
+                            <button class="btn btn-white action-btn flex-fill"><i class="fa-regular fa-thumbs-up me-2"></i>Beğen</button>
+                            <button class="btn btn-white action-btn flex-fill"><i class="fa-regular fa-comment-dots me-2"></i>Yorum Yap</button>
+                            <button class="btn btn-white action-btn flex-fill"><i class="fa-solid fa-share me-2"></i>Paylaş</button>
+                            <button class="btn btn-white action-btn flex-fill"><i class="fa-regular fa-paper-plane me-2"></i>Gönder</button>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="card">
+                    <div class="card-body pb-1">
+                        <div class="d-flex mb-3">
+                            <img src="https://i.scdn.co/image/ab67616d00001e021ccfc271ba09b15a61aed837" class="rounded-circle me-2" width="48" height="48">
+                            <div>
+                                <h6 class="mb-0 fw-bold">Jack Doe</h6>
+                                <p class="text-muted small mb-0">Attorney at Law</p>
+                                <p class="text-muted small mb-0">5s • <i class="fa-solid fa-earth-americas"></i></p>
+                            </div>
+                        </div>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, repudiandae maxime soluta delectus distinctio dolorem voluptatem perspiciatis obcaecati. Libero sint veritatis distinctio labore, assumenda magni nesciunt ipsa autem dolore eos?</p>
+                        
+                        <div class="d-flex justify-content-between text-muted small border-bottom pb-2">
+                            <span><i class="fa-solid fa-thumbs-up text-primary"></i> 142</span>
+                            <span>10 Yorum • 5 Paylaşım</span>
+                        </div>
+
+                        <div class="d-flex justify-content-between mt-2 pt-1">
+                            <button class="btn btn-white action-btn flex-fill"><i class="fa-regular fa-thumbs-up me-2"></i>Beğen</button>
+                            <button class="btn btn-white action-btn flex-fill"><i class="fa-regular fa-comment-dots me-2"></i>Yorum Yap</button>
+                            <button class="btn btn-white action-btn flex-fill"><i class="fa-solid fa-share me-2"></i>Paylaş</button>
+                            <button class="btn btn-white action-btn flex-fill"><i class="fa-regular fa-paper-plane me-2"></i>Gönder</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 d-none d-lg-block">
+                <div class="card">
+                    <div class="card-body p-3">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h6 class="card-title mb-0 fw-bold">LinkedIn Haberler</h6>
+                            <i class="fa-solid fa-circle-info text-muted"></i>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <a href="#" class="text-decoration-none text-dark fw-bold" style="font-size: 0.9rem;">Airlines cut thousands of flights due to monster storm</a>
+                                <p class="text-muted small mb-0">6.890 okuyucu</p>
+                            </li>
+                            <li class="mb-3">
+                                <a href="#" class="text-decoration-none text-dark fw-bold" style="font-size: 0.9rem;">Small businesses increasingly adopt 401(k) plans</a>
+                                <p class="text-muted small mb-0">4.088 okuyucu</p>
+                            </li>
+                            <li class="mb-3">
+                                <a href="#" class="text-decoration-none text-dark fw-bold" style="font-size: 0.9rem;">Visual Intelligence may define Apple's new AI wearable</a>
+                                <p class="text-muted small mb-0">2.153 okuyucu</p>
+                            </li>
+                        </ul>
+                        <button class="btn btn-light btn-sm btn-rounded fw-bold text-muted">Daha fazla göster <i class="fa-solid fa-angle-down"></i></button>
+                    </div>
+                </div>
+                
+                <div class="text-center small text-muted mt-3">
+                    <span class="mx-1">Hakkında</span>
+                    <span class="mx-1">Erişilebilirlik</span>
+                    <span class="mx-1">Yardım Merkezi</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
