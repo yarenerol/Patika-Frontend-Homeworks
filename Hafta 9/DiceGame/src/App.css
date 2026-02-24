@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background-color: #31363E;
+  font-family: 'Indie Flower', cursive;
+}
+
+.game-status{
+  font-family: 'Lobster', cursive;
+  color: white;
+}
+
+.players-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.player-box{
+margin-right: 50px;
+margin-left: 50px;
+}
+
+.pc-name{
+  margin: 0;
+}
+
+.player-name-input{
+  margin-bottom: 12px;
+}
+
+
