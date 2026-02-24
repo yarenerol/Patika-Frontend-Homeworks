@@ -1,0 +1,40 @@
+body{
+    background-color: gray;
+    display: flex; /* Flexbox'ı aktifleştir */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+background-color: silver;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 50vh;
+}
+
+.title{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 400;
+}
+
+.joke-box{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#next-joke{
+border: none;
+border-radius: 5px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 5px;
+padding-top: 5px;
+background-color: orange;
+margin-bottom: 15px;
+}
