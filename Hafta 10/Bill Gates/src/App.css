@@ -1,0 +1,137 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F1F2F6;
+  display: block;
+}
+
+.app-container{
+  justify-self: center;
+}
+
+.bill-gates{
+  border-radius: 100%;
+  max-height: 120px;
+  margin-top: 3rem;
+}
+
+.title{
+  padding-bottom: 4rem;
+  font-size:40px;
+}
+
+.header-content{
+  background-color: white;
+}
+
+.money-container{
+  height: auto;
+  background-color: #2ECC71;
+  font-size: x-large;
+  color: white ;
+  position: sticky;
+  top: 0;
+}
+
+.product-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: white;
+  height: auto;
+}
+
+.btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-name, .price {
+  margin: 0;
+  padding: 0;
+}
+
+.item-img{
+  height: 120px;
+  width: auto;
+  margin: auto;
+}
+
+
+.item-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 sütun */
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.count{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.buy-btn{
+  background-color: #2ECC71;
+}
+
+.sell-btn{
+  background-color: red;
+}
+
+.sell-btn:disabled{
+  background-color: #F1F2F6;
+}
+
+.receipt-container {
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px; /* Fiş çok geniş olmasın */
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.receipt-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.total-amount {
+  color: #24c486;
+  font-weight: bold;
+  margin: 10px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
