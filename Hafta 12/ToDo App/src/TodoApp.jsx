@@ -1,10 +1,6 @@
-// TodoApp.jsx
-// React'te bir uygulama yazmak için önce useState hook'unu import ediyoruz.
-// useState, verilerimizi (todo listesi gibi) "hatırlamak" için kullanılır.
-import { useState } from "react";
 
-// CSS'i de import etmeyi unutma! (index.css dosyanı aynı klasöre koy)
-// import "./index.css";
+import { useState } from "react"
+import "./index.css";
 
 // Her todo item'ın nasıl görüneceğini tutan başlangıç verisi
 const initialTodos = [
@@ -14,17 +10,8 @@ const initialTodos = [
 ];
 
 export default function TodoApp() {
-  // --- STATE TANIMLARI ---
-  // useState ile uygulamamızın "hafızasını" oluşturuyoruz.
-
-  // todos: tüm todo listesi
-  // setTodos: listeyi güncellemek için kullanılan fonksiyon
   const [todos, setTodos] = useState(initialTodos);
-
-  // inputValue: input kutusuna yazılan metin
   const [inputValue, setInputValue] = useState("");
-
-  // filter: hangi todoların gösterileceği ("all", "active", "completed")
   const [filter, setFilter] = useState("all");
 
   // --- FONKSİYONLAR ---
@@ -42,10 +29,7 @@ export default function TodoApp() {
     };
 
     // Mevcut listeye yeni todoyu ekle
-    // [...todos, newTodo] = eski listeyi kopyala ve sona yeni elemanı ekle
     setTodos([...todos, newTodo]);
-
-    // Input kutusunu temizle
     setInputValue("");
   }
 
